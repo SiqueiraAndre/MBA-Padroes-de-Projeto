@@ -69,27 +69,27 @@ Padrões de projeto é um mapa, não estratégia.
 
 
 
-*   **Singleton**
+*   **[Singleton](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Singleton)**
     *   Garante que o objeto vai ter uma única instância, ou seja, ela vai ser instanciada uma única vez no sistema todo.
     *   Algumas aplicações tem a necessidade de controlar o número de instâncias criadas de algumas classes, seja por motivo de performance e economia de recursos ou a própria lógica.
     *   Forma estática que permite aos clientes obterem o objeto único.
 
 
 
-*   **Factory Method**
+*   **[Factory Method](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Factory_Method)**
     *   Padrão bem difundido, não há a necessidade de explorar o código feito
     *   Remove acoplamento forte, separa a lógica de negócio e os códigos de criação de instâncias
     *   Com baixo acoplamento, há apenas um local a ser alterado se quiser alterar algo referente ao constructor da classe
 
 
 
-*   **Abstract Factory**
+*   **[Abstract Factory](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Abstract_Factory)**
     *   **Pontos positivos:** Encapsulamento do código de criação em pontos únicos do projeto, removendo tambem com isso o forte acoplamento entre classes que não deveriam ter um alto nível de relacionamento umas com as outras
     *   **Ponto negativo:** Implementar um Abstract Factory quando um simples Simple Factory ou Factory Method seriam o suficiente, pode piorar a performance do projeto, ainda mais na leitura dele.
 
 
 
-*   **Builder**
+*   **[Builder](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Builder)**
     *   Separar a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
     *   **Vantagens:**
         *   Separar em pequenos passos a construção do objeto complexo.
@@ -101,7 +101,7 @@ Padrões de projeto é um mapa, não estratégia.
 
 
 
-*   **Prototype**
+*   **[Prototype](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Prototype)**
     *   Gera uma instância de um protótipo e conforme vai se desenvolvendo vai incrementando na instância, a instância não é alterada.
     *   Permite que o cliente instancie vários protótipos, quando um deles não é mais necessário, basta removê-lo. Se é preciso adicionar novos protótipos, basta incluir a instanciação no cliente. Essa flexibilidade pode ocorrer inclusive em tempo de execução.
     *   É preciso garantir que o método de cópia esteja implementado corretamente, para evitar que a alteração nos valores mude todas as instâncias.
@@ -114,18 +114,18 @@ Os padrões estruturais vão se preocupar em como as classes e objetos são comp
 
 
 
-*   **Adapter**
+*   **[Adapter](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Adapter)**
     *   Gambiarra
     *   Funciona como uma pasta do windows, que pode ter arquivos e outras pastas e dentro das outras pastas, mais arquivos e outras pastas, de forma infinita. No composite você terá vários objetos em níveis e você pode navegar sobre esses níveis. É uma árvore.
 
 
 
-*   **Composite**
+*   **[Composite](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Composite)**
     *   converte uma interface de uma classe para outra interface que o cliente espera encontrar, permitindo que classes com interfaces incompatíveis trabalhem juntas.
 
 
 
-*   **Decorator**
+*   **[Decorator](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Decorator)**
     *   Os decoradores têm o mesmo super tipo que os objetos que eles decoram
     *   Você pode usar um ou mais decoradores para englobar um objeto
     *   Os objetos podem ser decorados a qualquer momento, de maneira dinâmica no tempo de execução com quantos decoradores desejarmos
@@ -136,7 +136,7 @@ Os padrões estruturais vão se preocupar em como as classes e objetos são comp
 
 
 
-*   **Facade**
+*   **[Facade](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Facade)**
     *   Faz um conjunto de coisas por trás de uma única ação, ao ínves de as pessoas acessarem várias partes do projeto, você fornece uma ponta e as pessoas acessam por ela.
 
     - Desvantagens
@@ -145,13 +145,13 @@ Os padrões estruturais vão se preocupar em como as classes e objetos são comp
 
 
 
-*   **FlyWeight**
+*   **[FlyWeight](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Flyweight)**
     *   Manipular grandes objetos com uma abstração, cria uma estrutura de compartilhamento de objetos pequenos.
     *   A ideia desse padrão é abstrair as funcionalidades, usar somente o necessário e padrão.
 
 
 
-*   **Proxy**
+*   **[Proxy](https://github.com/asiqueirabr/MBA-Padroes-de-Projeto/tree/master/Proxy)**
     *   É uma classe que funciona como camada intermediária entre dois lados. Middleware, etc.
     *   Protection Proxy: Controlam o acesso aos objetos, por exemplo, verificando se quem chama possui a devida permissão.
     *   Virtual Proxy: mantem informações sobre o objeto real, adiando o acesso/criação do objeto em si.
@@ -159,6 +159,10 @@ Os padrões estruturais vão se preocupar em como as classes e objetos são comp
     *   Smart Reference: este proxy é apenas um substituto simples para executar ações adicionais quando o objeto é acessado.
 
 
-**Github:** [https://github.com/felipeddallilo/padroesdeprojetos](https://github.com/felipeddallilo/padroesdeprojetos)
 
-**Email:** [felipedallilo@hotmail.com](mailto:felipedallilo@hotmail.com)
+*  **Professor:** Felipe Diniz Dallilo
+*  **Github:** [https://github.com/felipeddallilo/padroesdeprojetos](https://github.com/felipeddallilo/padroesdeprojetos)
+*  **Email:** [felipedallilo@hotmail.com](mailto:felipedallilo@hotmail.com)
+
+
+# Autor do projeto: André Felipe Siqueira
