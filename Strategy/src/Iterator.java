@@ -18,7 +18,7 @@ public class Iterator {
 			metodo = DESC;
 			break;
 		default:
-			throw new RuntimeException("MÈtodo n„o encontrado :/");
+			throw new RuntimeException("M√©todo n√£o encontrado :/");
 		}
 	}
 	

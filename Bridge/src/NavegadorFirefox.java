@@ -7,7 +7,7 @@ public class NavegadorFirefox extends NavegadorAbstract {
     @Override
     public void estruturar() {
     	opcaoFavoritos("Adicionar aos Favoritos do Firefox");
-        opcaoHistorico("Guardar no Histórico  do Firefox");
+        opcaoHistorico("Guardar no HistÃ³rico  do Firefox");
         opcaoCache("Permitir armazenar Cookies  do Firefox");
         System.out.println();
     }

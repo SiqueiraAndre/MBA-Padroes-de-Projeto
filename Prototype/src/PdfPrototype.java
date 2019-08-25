@@ -10,7 +10,7 @@ public class PdfPrototype extends DocumentoPrototype {
  
     @Override
     public String exibirInfo() {
-        return "Documento em PDF cujo tamanho é " + getTamanho() + " MB";
+        return "Documento em PDF cujo tamanho Ã© " + getTamanho() + " MB";
     }
  
     @Override

@@ -7,9 +7,9 @@ public class NavegadorIE extends NavegadorAbstract {
     @Override
     public void estruturar() {
     	opcaoFavoritos("Adicionar aos Favoritos do IE");
-        opcaoHistorico("Guardar no Histórico do IE");
+        opcaoHistorico("Guardar no HistÃ³rico do IE");
         opcaoCache("Permitir armazenar Cookies no IE");
-        System.out.println("--O IE deu um erro durante a execução e precisa ser fechado--");
+        System.out.println("--O IE deu um erro durante a execuÃ§Ã£o e precisa ser fechado--");
         System.out.println();
     }
 }

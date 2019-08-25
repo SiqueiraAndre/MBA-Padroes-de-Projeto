@@ -27,7 +27,7 @@ public class Mulher extends Pessoa {
                 return filho;
             }
         }
-        throw new Exception(this.nome + " n„o tem um filho chamado" + nome);
+        throw new Exception(this.nome + " n√£o tem um filho chamado" + nome);
     }
 
 }

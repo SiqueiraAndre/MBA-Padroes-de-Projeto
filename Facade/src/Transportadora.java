@@ -2,7 +2,7 @@
 public class Transportadora {
 	
 	public void movimentar() {
-		System.out.println("Despachado do armazém");
+		System.out.println("Despachado do armazÃ©m");
 	}
 	
 	public void entregar() {

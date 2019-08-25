@@ -4,15 +4,15 @@ public class Main {
 	public static void main(String [] args) {
 		FlyweightFactory factory = new FlyweightFactory();
 		 
-	    factory.getFlyweight(Files.PDF_2017).moverArquivo("ApolloServer@pasta/diret髍io");
-	    factory.getFlyweight(Files.PDF_2017).moverArquivo("JupiterServer@pasta/diret髍io");
+	    factory.getFlyweight(Files.PDF_2017).moverArquivo("ApolloServer@pasta/diret贸rio");
+	    factory.getFlyweight(Files.PDF_2017).moverArquivo("JupiterServer@pasta/diret贸rio");
 	    
 	    System.out.println("\n");
-	    factory.getFlyweight(Files.PDF_2019).moverArquivo("PlutoServer@pasta/diret髍io/novoDiretorio");
-	    factory.getFlyweight(Files.PDF_2019).moverArquivo("JupiterServer@pasta/diret髍io");
-	    factory.getFlyweight(Files.PDF_2019).moverArquivo("NeptuneServer@pasta/diret髍io");
+	    factory.getFlyweight(Files.PDF_2019).moverArquivo("PlutoServer@pasta/diret贸rio/novoDiretorio");
+	    factory.getFlyweight(Files.PDF_2019).moverArquivo("JupiterServer@pasta/diret贸rio");
+	    factory.getFlyweight(Files.PDF_2019).moverArquivo("NeptuneServer@pasta/diret贸rio");
 	    
 	    System.out.println("\n");
-	    factory.getFlyweight(Files.FISCAL).moverArquivo("MercuryServer@pasta/diret髍io");
+	    factory.getFlyweight(Files.FISCAL).moverArquivo("MercuryServer@pasta/diret贸rio");
 	}
 }

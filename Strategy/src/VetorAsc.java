@@ -3,7 +3,7 @@ public class VetorAsc extends Vetor {
 	@Override
 	public void percorrerLista() {
 		for(int i=0; i < TAMANHO; i++) {
-			System.out.println("Posição "+i+" - Valor "+ list.get(i));
+			System.out.println("PosiÃ§Ã£o "+i+" - Valor "+ list.get(i));
 		}
 	}
 

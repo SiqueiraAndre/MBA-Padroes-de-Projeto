@@ -10,7 +10,7 @@ public class Main {
 		proxy = new ProxyRFB(RFB.VALIDO, 72.00, 4.30, "01.555.666/0001-88");
 		System.out.println(proxy.pagarJuridico());
 		
-		System.out.println("\nToken inv·lido");
+		System.out.println("\nToken inv√°lido");
 		proxy = new ProxyRFB(RFB.INVALIDO, 25.00, 2.60, "222.555.666-77");
 		System.out.println(proxy.pagarFisico());
 	}

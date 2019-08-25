@@ -11,10 +11,10 @@ public abstract class Pessoa {
     }
  
     public void terFilho(Pessoa filho) throws Exception {
-        throw new Exception(nome + " n„o pode ter filhos - Somente mulheres podem engravidar");
+        throw new Exception(nome + " n√£o pode ter filhos - Somente mulheres podem engravidar");
     }
  
     public Pessoa getFilho(String nomeFilho) throws Exception {
-        throw new Exception(" È homem e por isso, n„o esteve em gestaÁ„o - n„o localizada lista de filhos");
+        throw new Exception(" O homem e por isso, n√£o esteve em gesta√ß√£o - n√£o localizada lista de filhos");
     }
 }

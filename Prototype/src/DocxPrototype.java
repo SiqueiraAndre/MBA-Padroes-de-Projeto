@@ -10,7 +10,7 @@ public class DocxPrototype extends DocumentoPrototype {
  
     @Override
     public String exibirInfo() {
-        return "Documento em Docx cujo tamanho é " + getTamanho() + " MB";
+        return "Documento em Docx cujo tamanho Ã© " + getTamanho() + " MB";
     }
  
     @Override
