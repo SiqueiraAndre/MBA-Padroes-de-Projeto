@@ -159,6 +159,10 @@ Os padrões estruturais vão se preocupar em como as classes e objetos são comp
     *   Smart Reference: este proxy é apenas um substituto simples para executar ações adicionais quando o objeto é acessado.
 
 
-**Github:** [https://github.com/felipeddallilo/padroesdeprojetos](https://github.com/felipeddallilo/padroesdeprojetos)
 
-**Email:** [felipedallilo@hotmail.com](mailto:felipedallilo@hotmail.com)
+*  **Professor:** Felipe Diniz Dallilo
+*  **Github:** [https://github.com/felipeddallilo/padroesdeprojetos](https://github.com/felipeddallilo/padroesdeprojetos)
+*  **Email:** [felipedallilo@hotmail.com](mailto:felipedallilo@hotmail.com)
+
+
+# Autor do projeto: André Felipe Siqueira
